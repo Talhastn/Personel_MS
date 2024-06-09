@@ -1,0 +1,12 @@
+personel_no,ad,soyad,departman,maas,uzmanlik,deneyim_yili,hastane,calisma_saati,sertifika,hasta_no,dogum_tarihi,hastalik,tedavi
+5040,Mahmut,Kura,Temizlik Gorevlisi,2300,0,0,0,0,0,0,0,0,0
+5041,Riza,Kocakulak,Tekniker,2700,0,0,0,0,0,0,0,0,0
+1313,Ayse,Kulucka,Hemsire,3900,0,0,Bozyaka,12,True,0,0,0,0
+1313,Melike,Kocuman,Hemsire,2800,0,0,Dokuz Eylul,4,True,0,0,0,0
+1313,Ayse,Kulucka,Hemsire,3300,0,0,Yesilyurt,7,True,0,0,0,0
+2230,Murat,Kosan,Doktor,12000,Beyin Cerrahi,26,Yesilyurt,0,0,0,0,0,0
+2233,Cemile,Gursoy,Doktor,9000,Kardiyoloji,11,Trafik,0,0,0,0,0,0
+2232,Duran,Tekerlek,Doktor,5500,Kardiyoloji,4,Ege,0,0,0,0,0,0
+0,Rukiye,Basibos,0,0,0,0,0,0,0,1234,11/06/1973,Febromiyerji,Kardiyo
+0,Abdulrezzak,Kefenli,0,0,0,0,0,0,0,1234,25/12/1944,Kalp,Otenazi
+0,Ogun,Gucumaydin,0,0,0,0,0,0,0,1234,02/02/2002,Kirik,Alci

@@ -1,18 +1,25 @@
-class hemsire():
+import personel
 
-    def __init__(self) -> None:
-        self.__calisma_saati: int = 0
-        self.__sertifika: bool = False
-        self.__hastane: str = ""
 
-    def __str__(self) -> str:
-        pass
+class hemsire(personel.Personel):
+    def __init__(self, personel_no, ad, soyad, dep, maas, calisma_saati, sertifika, hastane) -> None:
+        super().__init__(personel_no, ad, soyad, dep, maas)
+        self.__calisma_saati: int = calisma_saati
+        self.__sertifika: bool = sertifika
+        self.__hastane: str = hastane
 
-    def get_info(self):
-        pass
+    def __str__(self) -> None:
+        print("Calistigi saat: {}, Sertifikasi: {}, Hastane: {}".format(self.__calisma_saati, self.__sertifika, self.__hastane))
+
+    def get_info(self) -> tuple:
+        return self.__calisma_saati, self.__sertifika, self.__hastane
+
+    def get_pers(self) -> tuple:
+        return super().get_info()
 
     def set_info(self):
         pass
 
     def maas_arttir(self) -> int:
-        pass
+        no, ad, soyad, dep, maas = super().get_info()
+        return round(maas * 1.2)

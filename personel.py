@@ -1,17 +1,16 @@
-class personel():
+class Personel():
+    def __init__(self, personel_no, ad, soyad, dep, maas) -> None:
+        self.__personel_no: int = personel_no
+        self.__ad: str = ad
+        self.__soyad: str = soyad
+        self.__departman: str = dep
+        self.__maas: int = maas
 
-    def __init__(self) -> None:
-        self.__personel_no: int = 0
-        self.__ad: str = ""
-        self.__soyad: str = ""
-        self.__departman: str = ""
-        self.__maas: int = 0
+    def __str__(self) -> None:
+        print("Personel Ad-Soyad: {}".format(self.__ad + " " + self.__soyad) + "/nPersonel departmani: {}".format(self.__departman) + "/nPersonel maas: {}".format(self.__maas))
 
-    def __str__(self) -> str:
-        pass
-
-    def get_info(self):
-        pass
+    def get_info(self) -> tuple:
+        return self.__personel_no, self.__ad, self.__soyad, self.__departman, self.__maas
 
     def set_info(self):
         pass
