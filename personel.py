@@ -12,5 +12,5 @@ class Personel():
     def get_info(self) -> tuple:
         return self.__personel_no, self.__ad, self.__soyad, self.__departman, self.__maas
 
-    def set_info(self):
+    def set_info(self) -> None:
         pass

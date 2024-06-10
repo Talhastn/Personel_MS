@@ -17,7 +17,7 @@ class hemsire(personel.Personel):
     def get_pers(self) -> tuple:
         return super().get_info()
 
-    def set_info(self):
+    def set_info(self) -> None:
         pass
 
     def maas_arttir(self) -> int:

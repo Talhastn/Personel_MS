@@ -17,8 +17,8 @@ class Hasta():
     def get_info(self) -> tuple:
         return self.__hasta_no, self.__ad, self.__soyad, self.__dogum_tarihi, self.__hastalik, self.__tedavi
 
-    def set_info(self):
+    def set_info(self) -> None:
         pass
 
     def tedavi_suresi_hesapla(self) -> int:
-        return random.randint(0, 7)
+        return random.randint(1, 8)
